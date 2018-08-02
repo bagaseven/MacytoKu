@@ -45,7 +45,7 @@
                         android:layout_margin="10dp"
                         android:clickable="true"
                         android:foreground="?android:attr/selectableItemBackground"
-                        android:onClick="myFancyMethod">
+                        android:onClick="jadwal">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -88,7 +88,8 @@
                         android:layout_height="190dp"
                         android:layout_margin="10dp"
                         android:clickable="true"
-                        android:foreground="?android:attr/selectableItemBackground">
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:onClick="infor">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -140,7 +141,8 @@
                         android:layout_height="190dp"
                         android:layout_margin="10dp"
                         android:clickable="true"
-                        android:foreground="?android:attr/selectableItemBackground">
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:onClick="rute">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -183,7 +185,8 @@
                         android:layout_height="190dp"
                         android:layout_margin="10dp"
                         android:clickable="true"
-                        android:foreground="?android:attr/selectableItemBackground">
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:onClick="testi">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -235,7 +238,8 @@
                         android:layout_height="190dp"
                         android:layout_margin="10dp"
                         android:clickable="true"
-                        android:foreground="?android:attr/selectableItemBackground">
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:onClick="foto">
 
                         <LinearLayout
 

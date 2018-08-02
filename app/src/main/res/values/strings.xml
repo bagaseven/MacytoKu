@@ -6,4 +6,9 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_info">Info</string>
+    <string name="title_activity_rute">Rute</string>
+    <string name="title_activity_testi">Testimoni</string>
+    <string name="title_activity_foto">Foto dan Video</string>
+    <string name="title_activity_jadwal">Jadwal dan Pesan</string>
 </resources>

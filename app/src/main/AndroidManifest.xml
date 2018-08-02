@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".splash_screen"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
@@ -19,7 +19,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".JadwalPesan"></activity>
+        <activity
+            android:name=".Info"
+            android:label="@string/title_activity_info" />
+        <activity
+            android:name=".Rute"
+            android:label="@string/title_activity_rute" />
+        <activity
+            android:name=".Testi"
+            android:label="@string/title_activity_testi" />
+        <activity
+            android:name=".Foto"
+            android:label="@string/title_activity_foto" />
+        <activity
+            android:name=".Jadwal"
+            android:label="@string/title_activity_jadwal"></activity>
     </application>
 
 </manifest>

@@ -19,15 +19,63 @@ public class MainActivity extends AppCompatActivity {
     Fragment settingsFragment = new SettingsFragment();
     FragmentManager fragmentManager = getSupportFragmentManager();
 
-    View.OnClickListener tes = new View.OnClickListener() {
+    View.OnClickListener jadwal = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            myFancyMethod(v);
+            jadwal(v);
         }
     };
 
-    public void myFancyMethod(View v) {
-        Intent intent = new Intent(MainActivity.this, JadwalPesan.class);
+    public void jadwal(View v) {
+        Intent intent = new Intent(MainActivity.this, Jadwal.class);
+        startActivity(intent);
+    }
+
+    View.OnClickListener infor = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            infor(v);
+        }
+    };
+
+    public void infor(View v) {
+        Intent intent = new Intent(MainActivity.this, Info.class);
+        startActivity(intent);
+    }
+
+    View.OnClickListener rute = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            rute(v);
+        }
+    };
+
+    public void rute(View v) {
+        Intent intent = new Intent(MainActivity.this, Rute.class);
+        startActivity(intent);
+    }
+
+    View.OnClickListener testi = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            testi(v);
+        }
+    };
+
+    public void testi(View v) {
+        Intent intent = new Intent(MainActivity.this, Testi.class);
+        startActivity(intent);
+    }
+
+    View.OnClickListener foto = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            foto(v);
+        }
+    };
+
+    public void foto(View v) {
+        Intent intent = new Intent(MainActivity.this, Foto.class);
         startActivity(intent);
     }
 
