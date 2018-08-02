@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MacytoKu</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_notifications">Pemberitahuan</string>
+    <string name="title_settings">Pengaturan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

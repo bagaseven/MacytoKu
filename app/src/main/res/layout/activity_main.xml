@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asus.macytoku.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#303030">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#fcfcfc"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp"
+                tools:context="com.demotxt.droidsrce.homedashboard.Home">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/bankcardId"
+                        android:layout_width="160dp"
+                        android:layout_height="190dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:onClick="myFancyMethod">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageView3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/ic_date_range_black_24dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Jadwal dan Pemesanan"
+                                android:textStyle="bold" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp"
+                                android:background="@color/lightgray" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="Mau naik bus Macyto? yuk pesan"
+                                android:textColor="@android:color/darker_gray" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="190dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageView4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/ic_info_black_24dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Info"
+                                android:textStyle="bold" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp"
+                                android:background="@color/lightgray" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="Ini nih info info menarik tentang bus Macyto"
+                                android:textColor="@android:color/darker_gray" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="190dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageView5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/ic_map_black_24dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Pantau Bus"
+                                android:textStyle="bold" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp"
+                                android:background="@color/lightgray" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="Pantau bus Macyto, agar kamu bisa ikut naik"
+                                android:textColor="@android:color/darker_gray" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="190dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageView6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/ic_comment_black_24dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Testimoni"
+                                android:textStyle="bold" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp"
+                                android:background="@color/lightgray" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="Mau tau testimoni tentang bus Macyto?"
+                                android:textColor="@android:color/darker_gray" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="223dp"
+                    android:clipToPadding="false"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="190dp"
+                        android:layout_margin="10dp"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:layout_height="165dp"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:padding="10dp"
+                                app:srcCompat="@drawable/ic_photo_library_black_24dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Foto dan Video"
+                                android:textStyle="bold" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_margin="10dp"
+                                android:background="@color/lightgray" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="Yuk lihat foto dan video bus Macyto"
+                                android:textColor="@android:color/darker_gray" />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </FrameLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/navigation">
+
+    </android.support.design.widget.BottomNavigationView>
+
+</LinearLayout>
