@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "100331669825",
+    "firebase_url": "https://macytoku.firebaseio.com",
+    "project_id": "macytoku",
+    "storage_bucket": "macytoku.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100331669825:android:dec08e97a6130cef",
+        "android_client_info": {
+          "package_name": "com.example.asus.macytoku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100331669825-bfous6sc9fl00r54m03uhs280vhqv47r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.macytoku",
+            "certificate_hash": "ffe176860429147bc668ed9d26806de350a9b1f9"
+          }
+        },
+        {
+          "client_id": "100331669825-7vjaff8c1rq74f3o9gh3cgqk7n3qhe12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHL5GLWz20ldVg6JyR4PVDY7DOtQ85Sg0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100331669825-7vjaff8c1rq74f3o9gh3cgqk7n3qhe12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
